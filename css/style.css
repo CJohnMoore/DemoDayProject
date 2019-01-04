@@ -1,0 +1,16 @@
+#body {
+    }
+
+h1{
+    background-color: ivory;
+    font-family: 'Lobster-Two';
+    font-size: 4em;
+}
+
+ul {
+    background-color: #07c4dd;
+}
+
+#navigation {
+    background-image: "https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/45757842_192261508351928_4407482180591157248_n.jpg?_nc_cat=102&_nc_ht=scontent-ort2-1.xx&oh=3c6cbd46484ecd9d8d41c984be841dca&oe=5CA1E24B"
+}
