@@ -4,39 +4,38 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-image: url(http://via.placeholder.com/450x150);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     }
 
 .header h1{
-    background-image: "https://www.facebook.com/authorcelestemarie/photos/p.199913144253431/199913144253431/?type=3&eid=ARBuKv0urtB_y4__BSsABgnXHwc_C3xJgmxKr0bZB-56dlllXSSUS6wBd5lKFv7SNkPHM6ya5xw7Xo__&__xts__%5B0%5D=68.ARAlyt0RVWbumkvoq-Ti_QEXKhtRVu2mSYs0MqKMuKtv27q_1OL-SWmP-174CXKLfn_HQcZmRlOSGTh9cFtfnLN4gsN7KvPGe2P91x93JeO_j1sA1yb9O0Tv6QewgiOd_Oh7b0PS8p9b7b3KX95z3EbMmuH3IhzG-KSL8GuZpFiEvQR3gIiKpStK3s2XCLiwWFHyhBRWmiliTfvJNmmRuxe5l0u0a0acmUzbV-2kcCUHsaBOwun_Xr-vM-6OLo9IegHQmtesIMxMCPw0bZvrfRF11TobO1Jr9I6nI20c1xvwF9p2P4YC2fbt9-MaCUy7-IOkku8dvV3QHxeTlnqbY2ApoIhFTQ&__tn__=EEHH-R";
     font-family: 'Lobster-Two';
-    font-size: 10em;
+    font-size: 100px;
     max-width: 750px;
+    max-height: 50px;
     text-align: center;
 }
 
 .header p{
     font-family: 'Lobster-Two';
-    font-size: 2em;
-    max-width: 650px;
-    text-align: center
+    font-size: 40px;
+    max-width: 750px;
+    max-height: 50px;
+    text-align: center;
 }
 /*style for navigation*/
 #navigation{
-    background-color: azure;
+    background-color: rgb(105, 91, 187);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 4em;
+    font-size: 15px;
+    max-height:100px;
 
 }
 /*style for grids*/
 .content h2{
     font-family: 'Lobster-Two';
-    font-size: 2em;
+    font-size: 20px;
 }
 .content img{
     object-position: center;
 }
-
