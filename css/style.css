@@ -46,3 +46,69 @@
 .content img{
     width: 100%;
 }
+
+/*video player*/
+.controls {
+    visibility: hidden;
+    opacity: 0.5;
+    width: 400px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -200px;
+    background-color: black;
+    box-shadow: 3px 3px 5px rgb(5, 3, 122);
+    transition: 1s all;
+    display: flex;
+  }
+  
+  .player:hover .controls, player:focus .controls {
+    opacity: 1;
+  }
+
+/*icons for video buttons*/
+@font-face {
+    font-family: 'HeydingsControlsRegular';
+    src: url('fonts/heydings_controls-webfont.eot');
+    src: url('fonts/heydings_controls-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/heydings_controls-webfont.woff') format('woff'),
+         url('fonts/heydings_controls-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+ 
+ button:before {
+   font-family: HeydingsControlsRegular;
+   font-size: 20px;
+   position: relative;
+   content: attr(data-icon);
+   color: #aaa;
+   text-shadow: 1px 1px 0px black;
+ }
+ /*timer for video*/
+ .timer {
+    line-height: 38px;
+    font-size: 10px;
+    font-family: monospace;
+    text-shadow: 1px 1px 0px black;
+    color: rgb(161, 151, 7);
+    flex: 5;
+    position: relative;
+  }
+  
+  .timer div {
+    position: absolute;
+    background-color: rgba(12, 12, 12, 0.2);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 38px;
+    z-index: 2;
+  }
+  
+  .timer span {
+    position: absolute;
+    z-index: 3;
+    left: 19px;
+  }
