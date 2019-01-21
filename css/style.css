@@ -2,6 +2,7 @@
 .header {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     background-image: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/49422635_231850887726323_7988879804692692992_n.jpg?_nc_cat=111&_nc_ht=scontent-ort2-1.xx&oh=359058dd96b457139124acd5b3bc646e&oe=5CC852F0);
@@ -22,7 +23,7 @@
 /*style for grids*/
 .content h1, h2{
     font-family: 'Lobster-Two';
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
 }
 .content img{
