@@ -4,11 +4,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: center;
     background-position: center;
-    min-height: 100px;
-    width: 100%;
+    max-height: 250px;
     }
 
 /*style for navigation*/
