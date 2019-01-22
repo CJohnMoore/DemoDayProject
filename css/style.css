@@ -4,11 +4,11 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
     }
+    
+.header img {
+  width: 100%;
+}
 
 /*style for navigation*/
 #navigation{
